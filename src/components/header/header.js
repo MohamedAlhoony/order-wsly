@@ -6,7 +6,7 @@ const Header = () => {
         <Container fluid={'lg'}>
             <Row>
                 <Col>
-                    <Navbar expand="lg" bg="dark">
+                    <Navbar expand="lg" bg="dark" variant="dark">
                         <Navbar.Brand href="#home">
                             المظلة للخدمات الإلكترونية
                         </Navbar.Brand>

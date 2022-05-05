@@ -35,7 +35,7 @@ const Gallery = (props) => {
             <MyGallery
                 thumbnailStyle={() => {
                     return {
-                        // border: '1px solid black',
+                        border: '1px solid grey',
                     }
                 }}
                 margin={3}

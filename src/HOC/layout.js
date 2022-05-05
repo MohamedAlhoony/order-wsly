@@ -15,7 +15,7 @@ const Layout = (props) => {
             <div className={styles.headerBackground}></div>
             <Header />
             <Container className="py-5" fluid={'lg'}>
-                <Row style={{ color: 'black' }}>
+                <Row style={{ color: 'white' }}>
                     <Col xs={12}>
                         <h1 className="text-center">
                             خدمة وصلي &nbsp;
@@ -26,7 +26,9 @@ const Layout = (props) => {
                             </span>
                         </h1>
                         <p
-                            style={{ fontSize: '1.1rem' }}
+                            style={{
+                                fontSize: '1.1rem',
+                            }}
                             className="text-center"
                         >
                             حاجتك اليوم توصل لحوشكم.
