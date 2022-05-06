@@ -40,6 +40,12 @@ const Home = ({
     }
     return (
         <Row className={'py-4 d-flex justify-content-center'}>
+            <Col xs={'12'} md={'12'}>
+                <OrderInfo
+                    price={data?.item?.Price}
+                    desc={data?.item?.Describtion}
+                />
+            </Col>
             <Col xs={'12'} md={'12'} className={'mb-4'}>
                 {/* <h3 style={{ color: 'white' }}>صور المنتج:</h3> */}
                 {data?.gallery?.length ? (
@@ -51,10 +57,6 @@ const Home = ({
                 )}
             </Col>
             <Col xs={'12'} md={'12'}>
-                <OrderInfo
-                    price={data?.item?.Price}
-                    desc={data?.item?.Describtion}
-                />
                 <div style={{ position: 'relative' }}>
                     {isLoadingSubmit && (
                         <div className={styles.loader}>

@@ -31,7 +31,7 @@ const Layout = (props) => {
                             }}
                             className="text-center"
                         >
-                            حاجتك اليوم توصل لحوشكم.
+                            حاجتك اليوم توصلك لحوشكم.
                         </p>
                     </Col>
                 </Row>
